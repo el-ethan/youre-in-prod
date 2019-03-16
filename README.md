@@ -1,4 +1,4 @@
-![Example](example.png "Example")
+![Example](example1.png "Example")
 
 
 # How to install the extension manually:
