@@ -1,0 +1,13 @@
+{
+    "name": "You're in prod",
+    "version": "1.0",
+    "description": "Warn the user when they are in prod",
+    "manifest_version": 2,
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["https://*.channelmix.com/*"],
+            "js": ["contentScript.js"]
+        }
+ ]
+}
